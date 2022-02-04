@@ -1,11 +1,11 @@
-kw1  SELECT imie,nazwisko FROM autorzy
+kw1: SELECT imie,nazwisko FROM autorzy
 
-kw2  INSERT INTO czytelnicy VALUES(null, 'Anna' , 'Michalak' , 'ANM05')
+kw2: INSERT INTO czytelnicy VALUES(null, 'Anna' , 'Michalak' , 'ANM05')
 
-kw3  SELECT tytyl FROM ksiazki , kategorie WHERE ksiazki.id_kategoria=kategorie.id AND nazwa='epika'
+kw3: SELECT tytyl FROM ksiazki , kategorie WHERE ksiazki.id_kategoria=kategorie.id AND nazwa='epika'
 
     lub
 
      SELECT tytul FROM ksiazki WHERE id_kategoria = 1
 
-kw4  SELECT tytul FROM ksiazki , wypozyczenia WHERE ksiazki.id=wypozyczenia.id_ksiazka AND id_czytelnik=3
+kw4: SELECT tytul FROM ksiazki , wypozyczenia WHERE ksiazki.id=wypozyczenia.id_ksiazka AND id_czytelnik=3
