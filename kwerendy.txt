@@ -4,7 +4,7 @@ kw2: INSERT INTO czytelnicy VALUES(null, 'Anna' , 'Michalak' , 'ANM05')
 
 kw3: SELECT tytyl FROM ksiazki , kategorie WHERE ksiazki.id_kategoria=kategorie.id AND nazwa='epika'
 
-    lub
+     lub
 
      SELECT tytul FROM ksiazki WHERE id_kategoria = 1
 
