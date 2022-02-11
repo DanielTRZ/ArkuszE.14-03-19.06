@@ -18,20 +18,21 @@
      <h3>W naszych zbiorach znajdziesz dzieła następujących autorów:</h3>
      
      <?php
-      <ul>
-  <li>element listy</li>
-  <li>element listy</li>
-</ul>
+   
       ?>
+         <ul>
+  <li>element listy</li>
+  <li>element listy</li>
+   </ul>
   </div>
   
   
   <div id="center">
      <h3>Dodaj nowego czytelnika</h3>
      <form method="post">
-         imię<input type="text">
-         nazwisko<input type="text">
-         rok urodzenia<input type="number">
+         imię<input type="text"><br>
+         nazwisko<input type="text"><br>
+         rok urodzenia<input type="number"><br>
          <input type="button" value="Dodaj">
          
          

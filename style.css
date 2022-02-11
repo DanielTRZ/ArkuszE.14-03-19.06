@@ -1,5 +1,51 @@
 banner{
     background-color: #18FFA4;
-    height: 50px
+    height: 50px;
     
+}
+#left{
+    background-color: #AEFFCF;
+    height: 550px;
+    width: 30%;
+    float: left;
+    
+}
+#center{
+    background-color: #DDFFCD;
+    width: 550px;
+    height: 40%;
+    float: left;
+    
+}
+#right{
+    background-color: #AEFFCF;
+    width: 550px;
+    height: 30%;
+    float: right;
+    
+}
+#footer{
+    background-color: #18ffa4;
+    height: 50px;
+    text-align: center;
+    clear: both;
+}
+li{
+    margin-left: 100px;
+    
+}
+img{
+    margin: 100px;
+}
+form{
+    margin-left: 150px;
+}
+h4{
+    margin-left: 100px;
+}
+h2{text-align: center;
+    
+}
+h3{
+    text-align: center;
 }
