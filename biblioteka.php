@@ -32,7 +32,7 @@
 			}
 			
 		echo '</table>';
-      mysqli_close($connect)
+     
       ?>
    
   </div>
@@ -40,15 +40,25 @@
   
   <div id="center">
      <h3>Dodaj nowego czytelnika</h3>
-     <form method="post">
-         imię<input type="text"><br>
-         nazwisko<input type="text"><br>
-         rok urodzenia<input type="number"><br>
-         <input type="button" value="Dodaj">
-         
-         
-         
+     <form method="post" action="">
+         imię<input type="text" name="imie" id="imie"><br>
+         nazwisko<input type="text" name="nazwisko" id="nazwisko"><br>
+         rok urodzenia<input type="number" name="rok" id="rok"><br>
+         <input type="submit" value="Dodaj">  
      </form>
+          <?php
+            if(isset($_POST['imie']) && $_POST['nazwisko'])
+            {
+                $imie = $_POST['imie'];
+                $nazwisko = $_POST['nazwisko'];
+                $rok = $_POST['rok'];
+                $kod =  strtoupper(substr($imie,0,2).substr($nazwisko,0,2)).substr($rok,-0,2);
+                echo "Czytelnik $imie $nazwisko został dodany do bazy danych";
+                $q1="INSERT INTO czytelnicy( imie, nazwisko, kod) VALUES ('$imie','$nazwisko','$kod')";
+                $connect->query($q1);
+            }
+                 mysqli_close($connect)
+        ?>
       
   </div>
   <div id="right">
