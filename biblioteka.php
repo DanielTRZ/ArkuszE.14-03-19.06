@@ -19,26 +19,22 @@
      
      <?php
       $connect=mysqli_connect('localhost','root','','biblioteka')or die ("Błąd połączenia :".mysqli_error());
-        $q1=mysqli_query($connect,'SELECT nazwa, cena FROM towary WHERE id <= 4'); 
+        $q1=mysqli_query($connect,'SELECT imie,nazwisko FROM autorzy'); 
 		
 		echo'<table>
 			<tr>
 			</tr>';		
 			while($data = mysqli_fetch_assoc($q1))
 			{
-				echo '<tr>
-						<td>'.$data['nazwa'].'</td>
-						<td>'.$data['cena'].' '.'zł'.'</td>
-					</tr>';
+				echo '<ul>
+						<li>'.$data['imie'].' '.$data['nazwisko'].'</li>
+					</ul>';
 			}
 			
 		echo '</table>';
       mysqli_close($connect)
       ?>
-         <ul>
-  <li>element listy</li>
-  <li>element listy</li>
-   </ul>
+   
   </div>
   
   
