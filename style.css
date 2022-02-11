@@ -1,4 +1,4 @@
-banner{
+#banner{
     background-color: #18FFA4;
     height: 50px;
     
@@ -7,21 +7,20 @@ banner{
     background-color: #AEFFCF;
     height: 550px;
     width: 30%;
-    float: left;
-    
+    float: left; 
 }
 #center{
     background-color: #DDFFCD;
-    width: 550px;
-    height: 40%;
+    height: 550px;
+    width: 40%;
     float: left;
     
 }
 #right{
     background-color: #AEFFCF;
-    width: 550px;
-    height: 30%;
-    float: right;
+    height: 550px;
+    width: 30%;
+    float: left;
     
 }
 #footer{
