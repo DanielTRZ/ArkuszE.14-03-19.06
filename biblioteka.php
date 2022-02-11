@@ -8,11 +8,11 @@
      <link rel="stylesheet" href="style.css">
   </head>
   <body>
+  
   <div id="banner">
       <h2>Miejska Biblioteka Publiczna w Książkowicach</h2>
       
   </div>
-  
   
   <div id="left">
      <h3>W naszych zbiorach znajdziesz dzieła następujących autorów:</h3>
@@ -30,11 +30,9 @@
 						<li>'.$data['imie'].' '.$data['nazwisko'].'</li>
 					</ul>';
 			}
-			
 		echo '</table>';
-     
       ?>
-   
+      
   </div>
   
   
@@ -53,14 +51,16 @@
                 $nazwisko = $_POST['nazwisko'];
                 $rok = $_POST['rok'];
                 $kod =  strtoupper(substr($imie,0,2).substr($nazwisko,0,2)).substr($rok,-0,2);
-                echo "Czytelnik $imie $nazwisko został dodany do bazy danych";
+                echo "<center>";
+                echo "Czytelnik $imie $nazwisko został dodany do bazy danych.";
+                echo  "</center>";
                 $q1="INSERT INTO czytelnicy( imie, nazwisko, kod) VALUES ('$imie','$nazwisko','$kod')";
                 $connect->query($q1);
             }
                  mysqli_close($connect)
         ?>
-      
   </div>
+  
   <div id="right">
       <img src="biblioteka.png" alt="książki">
       <h4>
@@ -69,15 +69,11 @@
        tel:123123123<br>
        e-mail: biuro@biblioteka.pl
       </h4>
-      
-  </div>
-  <div id="footer">
-      
-      <a>Projekt strony:00000000000</a>
-      
   </div>
   
-
+  <div id="footer">
+      <a>Projekt strony:00000000000</a>
+  </div>
+  
   </body>
-
 </html>

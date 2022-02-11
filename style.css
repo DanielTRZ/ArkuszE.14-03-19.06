@@ -1,7 +1,6 @@
 #banner{
     background-color: #18FFA4;
-    height: 50px;
-    
+    height: 50px; 
 }
 #left{
     background-color: #AEFFCF;
@@ -19,8 +18,7 @@
     background-color: #AEFFCF;
     height: 550px;
     width: 30%;
-    float: left;
-    
+    float: left;   
 }
 #footer{
     background-color: #18ffa4;
@@ -29,8 +27,7 @@
     clear: both;
 }
 ul{
-    margin-left: 100px;
-    
+    margin-left: 100px;  
 }
 img{
     margin: 100px;
