@@ -32,9 +32,8 @@
 			}
 		echo '</table>';
       ?>
-      
+     
   </div>
-  
   
   <div id="center">
      <h3>Dodaj nowego czytelnika</h3>
