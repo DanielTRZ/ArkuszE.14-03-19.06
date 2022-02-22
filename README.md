@@ -1,2 +1,2 @@
- # ArkuszE.14-03-19.06
- Przyjładowe rozwiązanie ..
+ # ArkusszE.ArkuszE.14-03-19.06
+ Przykładowe rozwiązanie ..
