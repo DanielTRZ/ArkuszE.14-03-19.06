@@ -27,7 +27,7 @@
 			{
 				echo '<ul>
 						<li>'.$data['imie'].' '.$data['nazwisko'].'</li>
-					</ul>';
+				      </ul>';
 			}
 		echo '</table>';
       ?>
