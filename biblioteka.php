@@ -7,7 +7,7 @@
 <meta name="keywords" content="Biblioteka Miejska ,ksiązki,Książkowice">
 <link rel="stylesheet" href="style.css">
 </head>
-  <body>
+<body>
   
   <div id="banner">
       <h2>Miejska Biblioteka Publiczna w Książkowicach</h2> 
