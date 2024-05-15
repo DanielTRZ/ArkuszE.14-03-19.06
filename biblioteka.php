@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Biblioteka Miejska</title>
-     <meta name="description" content="Witryna biblioteki miejskiej w Książkowicach ">
+<meta name="description" content="Witryna biblioteki miejskiej w Książkowicach ">
      <meta name="keywords" content="Biblioteka Miejska ,ksiązki,Książkowice">
      <link rel="stylesheet" href="style.css">
   </head>
