@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+<head>
      <meta charset="utf-8">
      <title>Biblioteka Miejska</title>
      <meta name="description" content="Witryna biblioteki miejskiej w Książkowicach ">
