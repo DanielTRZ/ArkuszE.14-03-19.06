@@ -6,7 +6,7 @@
 <meta name="description" content="Witryna biblioteki miejskiej w Książkowicach ">
 <meta name="keywords" content="Biblioteka Miejska ,ksiązki,Książkowice">
 <link rel="stylesheet" href="style.css">
-  </head>
+</head>
   <body>
   
   <div id="banner">
