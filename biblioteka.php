@@ -10,7 +10,7 @@
 <body>
 <div id="banner">
 <h2>Miejska Biblioteka Publiczna w Książkowicach</h2> 
-  </div>
+</div>
   
   <div id="left">
      <h3>W naszych zbiorach znajdziesz dzieła następujących autorów:</h3>
