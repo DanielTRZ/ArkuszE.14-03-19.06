@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  <div id="banner">
+<div id="banner">
       <h2>Miejska Biblioteka Publiczna w Książkowicach</h2> 
   </div>
   
