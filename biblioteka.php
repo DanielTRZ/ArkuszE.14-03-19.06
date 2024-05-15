@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="banner">
-      <h2>Miejska Biblioteka Publiczna w Książkowicach</h2> 
+<h2>Miejska Biblioteka Publiczna w Książkowicach</h2> 
   </div>
   
   <div id="left">
