@@ -33,7 +33,7 @@
   </div>
   
   <div id="center">
-     <h3>Dodaj nowego czytelnika</h3>
+  <h3>Dodaj nowego czytelnika</h3>
      <form method="post" action="">
          imię<input type="text" name="imie" id="imie"><br>
          nazwisko<input type="text" name="nazwisko" id="nazwisko"><br>
