@@ -43,7 +43,7 @@
           <?php
             if(isset($_POST['imie']) && $_POST['nazwisko'])
             {
-                $imie = $_POST['imie'];
+            $imie = $_POST['imie'];
                 $nazwisko = $_POST['nazwisko'];
                 $rok = $_POST['rok'];
                 $kod =  strtoupper(substr($imie,0,2).substr($nazwisko,0,2)).substr($rok,-0,2);
