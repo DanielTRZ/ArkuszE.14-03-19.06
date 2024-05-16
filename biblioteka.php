@@ -24,7 +24,7 @@
       while($data = mysqli_fetch_assoc($q1))
       {
       echo '<ul>
-						<li>'.$data['imie'].' '.$data['nazwisko'].'</li>
+      <li>'.$data['imie'].' '.$data['nazwisko'].'</li>
 				      </ul>';
 			}
 		echo '</table>';
