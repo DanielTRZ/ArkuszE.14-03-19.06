@@ -23,7 +23,7 @@
       </tr>';		
       while($data = mysqli_fetch_assoc($q1))
       {
-				echo '<ul>
+      echo '<ul>
 						<li>'.$data['imie'].' '.$data['nazwisko'].'</li>
 				      </ul>';
 			}
