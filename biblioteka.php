@@ -16,7 +16,7 @@
      
      <?php
       $connect=mysqli_connect('localhost','root','','biblioteka')or die ("Błąd połączenia :".mysqli_error());
-        $q1=mysqli_query($connect,'SELECT imie,nazwisko FROM autorzy'); 
+      $q1=mysqli_query($connect,'SELECT imie,nazwisko FROM autorzy'); 
 		
 		echo'<table>
 			<tr>
