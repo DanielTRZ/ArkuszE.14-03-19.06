@@ -19,7 +19,7 @@
       $q1=mysqli_query($connect,'SELECT imie,nazwisko FROM autorzy'); 
 		
       echo'<table>
-			<tr>
+      <tr>
 			</tr>';		
 			while($data = mysqli_fetch_assoc($q1))
 			{
