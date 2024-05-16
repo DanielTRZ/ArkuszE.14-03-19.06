@@ -35,7 +35,7 @@
   <div id="center">
   <h3>Dodaj nowego czytelnika</h3>
   <form method="post" action="">
-         imię<input type="text" name="imie" id="imie"><br>
+  imię<input type="text" name="imie" id="imie"><br>
          nazwisko<input type="text" name="nazwisko" id="nazwisko"><br>
          rok urodzenia<input type="number" name="rok" id="rok"><br>
          <input type="submit" value="Dodaj">  
