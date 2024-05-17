@@ -54,7 +54,7 @@
             $connect->query($q1);
             }
             mysqli_close($connect)
-        ?>
+            ?>
   </div>
   
   <div id="right">
