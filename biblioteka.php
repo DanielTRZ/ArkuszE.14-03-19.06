@@ -47,7 +47,7 @@
             $nazwisko = $_POST['nazwisko'];
             $rok = $_POST['rok'];
             $kod =  strtoupper(substr($imie,0,2).substr($nazwisko,0,2)).substr($rok,-0,2);
-                echo "<center>";
+            echo "<center>";
                 echo "Czytelnik $imie $nazwisko został dodany do bazy danych.";
                 echo  "</center>";
                 $q1="INSERT INTO czytelnicy( imie, nazwisko, kod) VALUES ('$imie','$nazwisko','$kod')";
