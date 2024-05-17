@@ -53,7 +53,7 @@
             $q1="INSERT INTO czytelnicy( imie, nazwisko, kod) VALUES ('$imie','$nazwisko','$kod')";
             $connect->query($q1);
             }
-                 mysqli_close($connect)
+            mysqli_close($connect)
         ?>
   </div>
   
