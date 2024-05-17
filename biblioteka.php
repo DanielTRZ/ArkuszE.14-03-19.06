@@ -51,7 +51,7 @@
             echo "Czytelnik $imie $nazwisko został dodany do bazy danych.";
             echo  "</center>";
             $q1="INSERT INTO czytelnicy( imie, nazwisko, kod) VALUES ('$imie','$nazwisko','$kod')";
-                $connect->query($q1);
+            $connect->query($q1);
             }
                  mysqli_close($connect)
         ?>
